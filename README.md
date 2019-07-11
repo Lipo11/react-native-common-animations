@@ -1,5 +1,5 @@
 # React native common animations
-Most usage and most usage animations for your react native app
+Most usage and most useful animations for your react native app
 
 ### Installing
 ```
@@ -46,43 +46,43 @@ export default class Example extends React.Component
 ```
 ### Overall API
 
-###### duration int
+#### duration int
 Duration of animation
 
-###### delay int
+#### delay int
 Delay before start animation.
 
-###### offsetY
+#### offsetY
 Offset for animation.
 
-###### opacity
+#### opacity
 Opacity of elements.
 
-###### animate [true|false]
+#### animate [true|false]
 Do you wanna animate?
 
 ### API for Countdown
 
-###### go [true|false]
+#### go [true|false]
 Showing text go after time ended.
 
-###### text [{show:[true|false],style:[{}]}]
+#### text [{show:[true|false],style:[{}]}]
 Showing text over the circle.
 
-###### colors [{stroke:[],outline:''}]
+#### colors [{stroke:[],outline:''}]
 Colors of countdown.
 
-###### start|end timestamp
+#### start|end timestamp
 Time from to.
 
-###### borderWidth int
+#### borderWidth int
 Your border width for countdown.
 
-###### radius int
+#### radius int
 Your radius size for countdown.
 
-###### from|to int
+#### from|to int
 If you don't want to use circle you can use from to params. For this param you should use type text.
 
-###### type [text|int]
+#### type [text|int]
 Type of count down.
